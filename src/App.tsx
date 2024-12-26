@@ -1,10 +1,12 @@
 import Button from "./Button"
+import Marquee from "./Maruqee"
 
 function App() {
 
   return (
     <main>
-      <Button text={"yo"}/>
+      <Marquee>Welcome to horrorville</Marquee>
+      <Button text={"Click here"}/>
     </main>
   )
 }
